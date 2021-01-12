@@ -1,9 +1,9 @@
-const Discord = require('discord.js')
+const { message } = require('discord.js')
 
 module.exports.run = async (bot,message,args) => {
 
     let mp = args.join(" ");
-    let mpstaff = new Discord.RichEmbed()
+    let mpstaff = new MessageEmbed()
     .setAuthor(message.author.tag, message.author.displayAvatarURL)
     .setColor('RANDOM')
     .addField(`> Message de : ${message.author}`)
