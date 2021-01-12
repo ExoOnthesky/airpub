@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 
 module.exports.run = async (bot,message,args) => {
     if(message.content == '+RcON') {
-    message.delete(1000);
+    message.delete();
     let RcEmbed = new Discord.MessageEmbed()
     .setColor("#0083FF")
     .setTitle('__**Recrutements staff - Air Publicity**__')
