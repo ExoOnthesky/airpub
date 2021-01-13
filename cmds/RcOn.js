@@ -6,7 +6,7 @@ module.exports.run = async (bot,message,args) => {
     let RcEmbed = new Discord.MessageEmbed()
     .setColor("#0083FF")
     .setTitle('__**Recrutements staff - Air Publicity**__')
-    .addField(`__**Air Publicity :airplane_departure: est heureux de vous annoncer que les recrutements staff 👮‍♂️ sont ouvert !                                          Rendez-vous dans #【👮‍♂️】recrutements !**__`)
+    .addField('__**Air Publicity :airplane_departure: est heureux de vous annoncer que les recrutements staff 👮‍♂️ sont ouvert !', 'Rendez-vous dans #【👮‍♂️】recrutements !**__')
     .setFooter('Air publicity - Bot')
 
     message.channel.send(RcEmbed)
